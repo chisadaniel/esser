@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <title>Notifications</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "test.css" />
+</head>
+<body>
+ 
+<div class="firstButton" >
+ <a href="#"  >  <img onclick="showMenu()" src="images/menu.png" alt="NavBarImg"><span id="toolbarTitle">EsseR</span></a>
+</div>
+
+<div class="menu">
+  <a   href="Home.html">Home</a> 
+  <a    href="Print.html">Import/Export</a> 
+   <a    href="Statistics.html">Statistics</a> 
+  <a   href="Notifications.html">Notifications</a> 
+  <a   href="Inventory.html">Inventory</a>
+  <a href="AccountSettings.html"  >Account Settings</a>
+</div>
+
+<div class="container">
+<h1 class="pageTitle">Notifications</h1>
+
+<a href="#">Refresh</a><br>
+<a href="#" onclick="showAlerts()">See Notifications</a><br>
+<a href="#" onclick="setNotifyDate()">Set notifications date</a>
+
+
+<div class="alerts">
+	<h2>Notifications:</h2>
+	<p>You have no notifications. Refresh the page!</p>
+
+</div>
+
+<div class="setNotificationDate">
+	<h2>You will be notified in every day of the month you enter.</h2>
+<input  type="text" name="element" placeholder="Day(zz)" required><br>
+<button  type="button">Set Date</button> 
+	<h2>You will be notified at every period of time (after zz/mm day/moths).</h2>
+<input   type="text" name="element" placeholder="Day(zz)" required><br>
+	<h2>or</h2>
+<input   type="text" name="element" placeholder="Months(zz)" required><br>
+<button type="button">Set Date</button> 
+</div>
+
+</div>
+<script  src="menu.js"></script>
+
+</body>
+</html>

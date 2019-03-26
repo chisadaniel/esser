@@ -1,0 +1,163 @@
+.title { 
+	margin-top: 10%;
+	color:white;
+	border:1px solid black;
+	font-size:100px;
+	width:75%;
+	text-align:center;
+	float:left;
+	clear:right;
+	background: black;
+	padding-top: 2.3%;
+	 
+	
+
+}
+body{background:url("images/first-back.png");
+	background-size: cover;
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	overflow-x:hidden;
+}
+
+.register{
+
+	/*margin-top: 10%;*/
+	/*padding-top:1%; */
+	margin-left:79%;
+	width: 40%;	
+	display: none;
+
+}
+
+.forgotPassword{
+	margin-left:79%;
+	width: 40%;	
+	display: none;
+}
+
+.login{
+
+	  padding-top: 17%;  
+	/*padding-top: 10%;*/
+	margin-left:79%;
+	width: 40%;	
+
+}
+input[type=text],input[type=password],select   {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+button[type=button],[type=submit]{
+
+	 border-radius: 6px;
+	border:1px solid white;
+	padding: 14px 20px;
+  margin: 8px 0;
+}
+#loginButton,#registerButton,#idforgotButton,#hideForgotButton{
+		  
+		 width:35%;
+	     background:black;
+	     color:white;
+	     text-decoration: none;
+
+	      }
+#loginButton:hover,#registerButton:hover,#idforgotButton:hover,#hideForgotButton:hover{background:gray;
+	     color:black;
+	 	 cursor: pointer;}
+#signupButton{
+
+		width:35%;
+		background:black;
+	     color:white;
+	      text-decoration: none;
+		 }
+#signupButton:hover{
+		 background:gray;
+	     color:black;
+	 	 cursor: pointer;}
+
+ @media   (max-width: 900px)  {
+
+		p{width: 100%;
+		}
+	  .login{
+ 		text-align: center;
+	    padding-top: 17%;  
+	   /*padding-top: 10%;*/
+	   
+	   margin:0 auto;
+	   width: 100%;	
+
+}
+#loginDiv{
+	 margin:0 auto;
+	   width: 100%;	
+
+}
+input.log{
+	 text-align: center;
+	    
+	   
+	  /* margin-left:10%;*/
+
+}
+    #loginButton,#signupButton,#registerButton,#idforgotButton,#hideForgotButton{
+		  
+		  margin:0 auto;
+	     width: 50%;	
+
+	      }
+
+     input[type=text],input[type=password],select{ width: 70%; }
+     button[type=button],[type=submit]{
+		width: 130%;	 
+	}
+ .register{
+ text-align: center;
+	/*margin-top: 10%;*/
+	/*padding-top:1%; */
+	margin:0 auto;
+	   width: 100%;	
+	display: none;
+}
+.forgotPassword{
+	 text-align: center;
+	margin:0 auto;
+	   width: 100%;	
+	display: none;
+}
+
+
+ 
+.register{
+   margin: 0 auto;
+     width: 100%; 
+}
+.forgotPassword{
+	  margin: 0 auto;
+     width: 100%; 
+}
+.title { 
+	 
+	color:white;
+	 
+	font-size:120%;
+	width:100%;
+	text-align:center;
+	 
+	background: black;
+	padding-top: 0;
+	 
+}
+}

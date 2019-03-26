@@ -1,0 +1,21 @@
+.configureBussiness{
+	display: none;
+}
+.changePass{
+	display: none;
+}
+.contactDev{
+	display: none;
+}
+.addElement{
+	display: none;
+	margin:2%;
+}
+.removeElement{
+	display: none;
+	margin:2%;
+}
+.searchElement{
+	display: none;
+	margin:2%;
+}

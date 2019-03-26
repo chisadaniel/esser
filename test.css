@@ -1,0 +1,236 @@
+ 
+body { padding:0; 
+  margin: 0;
+  background: black;
+  color:grey;
+
+ }
+p{
+  text-align: justify;
+}
+ #HomeImage{
+ margin:0;
+ width:100%;
+ height: 60%;
+ }
+
+ .container{
+
+ height: 50%; /* Set your own height: percents, ems, whatever! */
+  width: 50%; /* Set your own width: percents, ems, whatever! */
+   
+  margin: auto; /* Center the item vertically & horizontally */
+  position: absolute; /* Break it out of the regular flow */
+   top: 0; left: 0; bottom: 10%; right: 0; /* Set the bounds in which to center it, relative to its parent/container */
+  background-color: #000;
+
+
+
+  text-align: center;
+  display: block;
+  padding: 2%;
+ }
+ a{
+  color:grey;
+  text-decoration: none;
+ }
+ a:hover{
+  color:white;
+ }
+.menu {
+ 
+display: none;
+ 	width: 100%;
+  background-color: #555;
+  overflow: auto;
+  height: 30%;
+ }
+
+ .menu a {
+
+
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  background-color: #000;
+}
+.menu img{
+	height:10%;
+	width: 10%;
+	
+}
+
+.haveImg{
+	 
+}
+
+ .firstButton{
+  
+ 	margin-top:1px;
+ 	width: 100%;
+  background-color: #555;
+   
+  height: 24%;
+  overflow : hidden;
+
+ }
+ .firstButton:hover{
+ 	/*border-left:3px solid black;*/
+  padding-left:0.1%;
+
+ }
+ .firstButton img{
+ 	margin: 0.2%;
+ 	 margin-left: 49%;
+ 	width: 2%;
+ 	height: 2%;
+ }
+ /*.firstButton {
+ 	padding-left: : 48%;
+ }*/
+ 
+ div.firstButton{
+ 	 position: sticky;
+  top: 0;
+ }
+
+  input[type=text],input[type=password],select   {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /*display: inline-block;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+button[type=button],[type=submit]{
+  width: 60%;
+   border-radius: 6px;
+  border:1px solid white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  background: black;
+  color:white;
+}
+button[type=button]:hover,[type=submit]:hover{
+  background:grey;
+  color:white;
+  cursor:pointer;
+}
+
+#toolbarTitle{
+  padding: 0.2%;
+  color:black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom : 30%;
+  margin: 0.2%;
+  text-shadow: 2px 0px orange;
+}
+
+.pageTitle{
+  font-size: 150%;
+  color:darkorange;
+}
+
+.alerts{
+  display: none;
+}
+.setNotificationDate{
+  display:none;
+}
+.seeInventory{
+  display:none;
+}
+
+table{width:50%;}
+
+th,td{
+  width: 15%;
+ /* padding: 12px 20px;
+  margin: 8px 0;*/
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+  color:white;
+
+}
+td{
+  background-color: white;
+  color:black;
+}
+textarea{
+  margin:0;
+  width: 80%;
+}
+@media only screen and (max-width:700px){
+  /* tablets */
+  .addElement{width:100%;}
+  .firstButton img{min-width:20px;}
+  .menu {width: 250px;}
+  .wrapper{
+        text-align: center;
+      }
+    .container{
+
+      display: inline-block;
+    }
+  button[type=button],[type=submit]{
+  
+  color:white;
+}
+ 
+
+
+}
+ 
+
+
+
+
+
+@media   (max-width: 480px)  {
+  .container{
+    margin-top: 33%;
+  }
+  .menu{width:100%;
+        height: 15%;
+    /* Center the item vertically & horizontally */
+    /* Break it out of the regular flow */
+   /* Set the bounds in which to center it, relative to its parent/container */
+  }
+    h2{font-size: 60%;}
+  
+  input{width:30%; }
+  button{width:15%;
+    }
+  table{width:100%;
+    font-size:60%;
+  margin:0;}
+}
+@media   (max-width: 700px){
+   .menu{width:100%;
+        height: 15%;
+      }
+      .container{
+    margin-top: 33%;
+  }
+      table{
+        width:80%;
+        font-size:60%;
+        /*padding-top: :50%;*/
+      }
+  th,td{
+  width: 40%;
+}
+
+}
+
+ 

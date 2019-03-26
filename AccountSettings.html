@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+  <title>Account Settings</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "test.css" />
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "AccountSettings.css" />
+</head>
+<body>
+ 
+<div class="firstButton" >
+ <a href="#"  >  <img onclick="showMenu()" src="images/menu.png" alt="NavBarImg"><span id="toolbarTitle">EsseR</span></a>
+</div>
+
+<div class="menu">
+  <a   href="Home.html">Home</a> 
+  <a    href="Print.html">Import/Export</a> 
+   <a    href="Statistics.html">Statistics</a> 
+  <a   href="Notifications.html">Notifications</a> 
+  <a   href="Inventory.html">Inventory</a>
+  <a href="AccountSettings.html"  >Account Settings</a>
+</div>
+
+<div class="container">
+
+<h1 class="pageTitle">Account Settings</h1>
+
+<a href="#" onclick="showBussiness()">Configure your bussiness</a><br>
+<a href="#" onclick="showChangePass()">Change Password</a> <br>
+<a href="#" onclick="showContactDev()">Contact developer</a><br>
+<a href="login.html">Log out</a><br>
+
+<div class="configureBussiness">
+	<br>
+	<p>Set your bussiness informations:</p>
+
+	<form action="/action_page.php">
+  Company name:<br>
+  <input type="text" name="companyName">
+  <br>
+  Adress:<br>
+  <input type="text" name="adress"><br>
+  E-mail:<br>
+  <input type="text" name="email"><br>
+  Phone:<br>
+  <input type="text" name="phone">
+  <br><br>
+  <input type="submit" value="Configure">
+</form> 
+	 
+</div>
+
+<div class="changePass">
+	<br>
+	<form action="/action_page.php">
+  E-mail:<br>
+  <input type="text" name="email"><br>
+  <br><br>
+  You'll receive an e-mail for changing your password.
+  <br>
+  <input type="submit" value="Change Password">
+
+</form>  
+</div>
+
+<div class="contactDev">
+	<br>
+	<p>Contact:</p> 
+	<p>email:asser@info.com<br>
+	phone:0049876432</p>
+
+<p> Do you have problems?</p>
+<textarea   rows="5" cols="40">
+Notify us! We will contact you in short time.
+</textarea><br>
+<input type="submit" value="Notify">
+</div>
+
+</div>
+<script  src="menu.js"></script>
+
+</body>
+</html>
